@@ -1,0 +1,58 @@
+:root {
+	--Inter-family: 'Inter', sans-serif;
+	--Lefia-family: 'Lefia', sans-serif;
+	--global-primary: #2e4fd7;
+	--base-text-on-dark: #ffffff;
+	--base-text-secondary: #1e1e1e;
+	--base-bg-primary: #ffffff;
+	--black-color: #000000;
+}
+
+.form__select {
+	margin-top: 24px;
+}
+
+.select__svg {
+	width: 20px;
+	height: 10px;
+	fill: none;
+}
+
+.select__header {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid var(--form-text-color);
+	padding: 17px 18px;
+}
+
+.select__body {
+	display: none;
+	border: 1px solid #64626a;
+}
+
+.select__body-item {
+	padding: 18px 20px;
+}
+
+.select__body-item:not(:last-child) {
+	border-bottom: 1px solid #64626a;
+}
+
+.select.select--active .select__body {
+	display: block;
+}
+
+.select.select.select--active .select-svg {
+	transform: rotate(180deg);
+}
+
+.select__current,
+.select__body-item {
+	font-family: var(--Inter-family);
+	font-family: 400;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.17px;
+	color: #b3b1b7;
+}

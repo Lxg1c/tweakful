@@ -1,0 +1,65 @@
+:root {
+	--Inter-family: 'Inter', sans-serif;
+	--Lefia-family: 'Lefia', sans-serif;
+	--global-primary: #2e4fd7;
+	--base-text-on-dark: #ffffff;
+	--base-text-secondary: #1e1e1e;
+	--base-bg-primary: #ffffff;
+	--black-color: #000000;
+}
+
+.text {
+	font-family: var(--Inter-family);
+	font-weight: 400;
+}
+
+.title {
+	font-family: var(--Inter-family);
+	font-weight: 700;
+}
+
+.title-1 {
+	font-size: 64px;
+	line-height: 72px;
+	letter-spacing: -1.16px;
+	color: var(--black-color);
+}
+
+.title-2 {
+	font-size: 52px;
+	line-height: 62px;
+	letter-spacing: -0.94px;
+}
+
+.title-4 {
+	font-size: 26px;
+	line-height: 34px;
+	font-weight: 600;
+	font-family: var(--Inter-family);
+}
+
+.text-20 {
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 0.1px;
+}
+
+.text-18 {
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.2px;
+}
+
+.text-16 {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: -0.29px;
+	color: var(--base-text-secondary);
+}
+
+.text-14 {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: -0.25px;
+	color: black;
+}
